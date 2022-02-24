@@ -1,7 +1,7 @@
 {
   "name": "dev-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "![template preview](https://res.cloudinary.com/di32yybrd/image/upload/v1645564867/template%20tailwind/Untitled_design_6_vbvhyq.png)",
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --watch",
@@ -10,9 +10,21 @@
   "author": "Andreea Egli-Hehl",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.0.23"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.4"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegli84/dev-portfolio-tailwindcss.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aegli84/dev-portfolio-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/aegli84/dev-portfolio-tailwindcss#readme"
 }
